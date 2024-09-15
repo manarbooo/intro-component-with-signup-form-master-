@@ -19,26 +19,34 @@
       <p class="freeTrial"><span class="trial">Try it free 7 days</span> then $20/mo. thereafter</p>
     </section >
     <form action="#" class="form" id="form">
-     <input class="formInput" name="name" type="text" placeholder="First Name" id="firstName">
-     <img src="images/icon-error.svg" class="iconErr1 error">
-     <p class="errorMsg1 message" id="firstNameErr">First Name cannot be empty</p>
-     
-     <input class="formInput" name="last" type="text" placeholder="Last Name" id="lastName">
-     <img src="images/icon-error.svg" class="iconErr2 error">
-     <p class="errorMsg2 message" id="lastNameErr">Last Name cannot be empty</p>
-    
-     <input class="formInput" name="email" type="email" placeholder="Email Address" id="email">
-     <img src="images/icon-error.svg" class="iconErr3 error">
-     <p class="errorMsg3 message" id="emailErr">Email cannot be empty</p>
-     
-     <input class="formInput" name="password" type="password" placeholder="Password" id="password">
-     <img src="images/icon-error.svg" class="iconErr4 error">
-     <p class="errorMsg4 message" id="passwordErr">Password cannot be empty</p>
-     
-     <button class="formBtn">CLAIM YOUR FIRST TRIAL</button>
-     <p class="terms">By clicking the button, you are agreeing to our <span class="services">Terms and Services</span></p>
-    
+      <div class="inputContainer">
+        <input class="formInput" name="name" type="text" placeholder="First Name" id="firstName">
+        <img src="images/icon-error.svg" class="error iconErr1">
+        <p class="errorMsg1 message" id="firstNameErr">First Name cannot be empty</p>
+      </div>
+      
+      <div class="inputContainer">
+        <input class="formInput" name="last" type="text" placeholder="Last Name" id="lastName">
+        <img src="images/icon-error.svg" class="error iconErr2">
+        <p class="errorMsg2 message" id="lastNameErr">Last Name cannot be empty</p>
+      </div>
+      
+      <div class="inputContainer">
+        <input class="formInput" name="email" type="email" placeholder="Email Address" id="email">
+        <img src="images/icon-error.svg" class="error iconErr3">
+        <p class="errorMsg3 message" id="emailErr">Email cannot be empty</p>
+      </div>
+      
+      <div class="inputContainer">
+        <input class="formInput" name="password" type="password" placeholder="Password" id="password">
+        <img src="images/icon-error.svg" class="error iconErr4">
+        <p class="errorMsg4 message" id="passwordErr">Password cannot be empty</p>
+      </div>
+      
+      <button class="formBtn">CLAIM YOUR FIRST TRIAL</button>
+      <p class="terms">By clicking the button, you are agreeing to our <span class="services">Terms and Services</span></p>
     </form>
+    
   </div>
   
   <script src="main.js"></script>
